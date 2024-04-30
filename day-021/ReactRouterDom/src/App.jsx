@@ -1,4 +1,4 @@
-import { Children, useState } from 'react'
+import { useState } from 'react'
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import './App.css'
@@ -9,32 +9,7 @@ import bookList from './Pages/bookList';
 import Book from "./Pages/Book";
 function App() {
 
-
-
-let element = useRoutes([
-{
-  path: "/",
-  element: <Navlayout/>,
-  children : [
-    {
-    index: true,
-    element: <Home/>
-    },
-    {
-      path: "about",
-      element: <About />,
-    },
-    {
-      path: "contact",
-      element: <Contact />
-    },
-  ]
-}
-
-])
-
 return(
-
 
 <div className='App'>
 
