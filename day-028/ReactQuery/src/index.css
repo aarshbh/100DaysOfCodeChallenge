@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.App{
+    margin-top: 5vh;
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+.hello{
+    padding: 10px;
+    font-size: larger;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 960px;
+    font-size: larger;
+}
