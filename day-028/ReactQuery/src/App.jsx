@@ -14,7 +14,7 @@ const App = () => {
     <div className="App">
       <QueryClientProvider client={client}>
         <Router>
-          {/* <Navbar /> */}
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
 

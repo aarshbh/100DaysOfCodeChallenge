@@ -3,10 +3,14 @@ import { useQuery } from "@tanstack/react-query";
 import Axios from "axios";
 
 const Home = () => {
-  const { isLoading, data } = useQuery(["cat"], () => {
-    return Axios.get("https://catfact.ninja/fact").then((res) => res.data);
+  const { isLoading, data } = useQuery({
+    queryKey: ["cat"],
+    queryFn: async () => {
+      const res = await Axios.get("https://catfact.ninja/fact");
+      return res.data;
+    },
   });
-
+    
 
 if (isLoading) {
 return <h1>Loading...</h1>
@@ -18,7 +22,7 @@ return <h1>Loading...</h1>
       <h1>
         This is home page
         <br />
-        <p> {data?.fact} </p>
+        <blockquote> {data?.fact} </blockquote>
       </h1>
     </div>
   );
