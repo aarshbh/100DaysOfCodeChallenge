@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../src/Images/wp6061010-zodiac-constellation-wallpapers.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    margin: 20px;
+    text-align: center;
+}
+
+.form-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.form-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-box input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-box p {
+    color: red;
+    margin: 0 0 10px;
+    font-size: 0.9em;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 600px) {
+    .form-box {
+        padding: 15px;
+    }
+
+    .form-box input {
+        width: calc(100% - 10px);
+    }
+}
