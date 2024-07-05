@@ -1,27 +1,26 @@
-# React + Vite
+# My Multi-Step Form ♒✨
 
-My Multi-Step Form ♒✨
-🧑‍💻 Day 054 of #100DaysOfCodeChallenge
-Objective: Create a responsive multi-step form using React.js.
+## 🧑‍💻 Day 054 of #100DaysOfCodeChallenge
 
-Steps:
+**Objective**: Create a responsive multi-step form using React.js.
 
-🌟 Personal Info: Name, Email, Phone
-🏠 Address Info: Address Line 1 & 2, City, State, Zip Code
-✅ Confirmation: Review all data
-Features:
+**Steps**:
+1. 🌟 **Personal Info**: Name, Email, Phone
+2. 🏠 **Address Info**: Address Line 1 & 2, City, State, Zip Code
+3. ✅ **Confirmation**: Review all data
 
-🔄 Tabbed Navigation
-🛡️ Client-side Validation
-🗂️ State Management with Hooks
-💾 Data Persistence in Local Storage
-📱 Responsive Design
-Setup:
+**Features**:
+- 🔄 Tabbed Navigation
+- 🛡️ Client-side Validation
+- 🗂️ State Management with Hooks
+- 💾 Data Persistence in Local Storage
+- 📱 Responsive Design
 
-Clone the repo
-Run npm install
-Start with npm start
+**Setup**:
+1. Clone the repo
+2. Run `npm install`
+3. Start with `npm start`
+
 Enjoy the cosmic journey! 🚀🔮
 
 For more details, refer to the project documentation. 🌌
-
