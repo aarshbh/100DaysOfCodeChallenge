@@ -3,7 +3,6 @@ import {BrowserRouter as Router , Routes , Route } from "react-router-dom"
 import {Auth} from "./Pages/Auth/indexAuth";
 import {ExpenseTracker} from "./Pages/Expense-Tracker/indexExpense";
 function App() {
-  
 
   return (
     <div className='App'>

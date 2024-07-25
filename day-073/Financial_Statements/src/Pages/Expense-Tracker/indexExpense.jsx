@@ -16,7 +16,6 @@ export const ExpenseTracker = () => {
   const [description, setDescription] = useState("");
   const [transactionAmount, setTransactionAmount] = useState(0);
   const [transactionType, setTransactionType] = useState("expense");
- 
   const { balance, income, expenses } = transactionTotals;
 
   const onSubmit = (e) => {
