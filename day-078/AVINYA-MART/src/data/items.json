@@ -1,0 +1,26 @@
+
+[
+    {
+        "id": 1,
+        "name": "Book",
+        "price": 2.99,
+        "imgUrl": "/imgs/Harry-Potter-and-the-Cursed-Child.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Banana",
+        "price": 1.99,
+        "imgUrl": "/imgs/Bunch-of-bananas-67e91d5.jpg"
+    },{
+        "id": 3,
+        "name": "Iphone",
+        "price": 10.99,
+        "imgUrl": "/imgs/Iphone._AC_UF1000,1000_QL80_.jpg"
+    },{
+        "id": 4,
+        "name": "Car",
+        "price": 1000.99,
+        "imgUrl": "/imgs/swift-47.jpg"
+    }
+]
